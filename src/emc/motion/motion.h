@@ -396,7 +396,7 @@ Suggestion: Split this in to an Error and a Status flag register..
     } emcmot_comp_entry_t; 
 
 
-#define EMCMOT_COMP_SIZE 256
+#define EMCMOT_COMP_SIZE 1024
     typedef struct {
 	int entries;		/* number of entries in the array */
 	emcmot_comp_entry_t *entry;  /* current entry in array */
